@@ -19,7 +19,8 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
         with:
-          files: _build/*.deb
-          _build/*.rpm
+          files: |
+            _build/*.deb
+            _build/*.rpm
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
