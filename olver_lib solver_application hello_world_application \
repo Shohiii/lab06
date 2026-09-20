@@ -1,0 +1,141 @@
+formatter_ex_lib/CMakeLists.txt:16: new blank line at EOF.
+formatter_ex_lib/formatter_ex.cpp:1: trailing whitespace.
+[32m+[m[32m#include "formatter_ex.h"[m[41m[m
+formatter_ex_lib/formatter_ex.cpp:2: trailing whitespace.
+[32m+[m[41m[m
+formatter_ex_lib/formatter_ex.cpp:3: trailing whitespace.
+[32m+[m[32m#include "formatter.h"[m[41m[m
+formatter_ex_lib/formatter_ex.cpp:4: trailing whitespace.
+[32m+[m[41m[m
+formatter_ex_lib/formatter_ex.cpp:5: trailing whitespace.
+[32m+[m[32mstd::ostream& formatter(std::ostream& out, const std::string& message)[m[41m[m
+formatter_ex_lib/formatter_ex.cpp:6: trailing whitespace.
+[32m+[m[32m{[m[41m[m
+formatter_ex_lib/formatter_ex.cpp:7: trailing whitespace.
+[32m+[m[32m    return out << formatter(message);[m[41m[m
+formatter_ex_lib/formatter_ex.cpp:8: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+formatter_ex_lib/formatter_ex.h:1: trailing whitespace.
+[32m+[m[32m#pragma once[m[41m[m
+formatter_ex_lib/formatter_ex.h:2: trailing whitespace.
+[32m+[m[41m[m
+formatter_ex_lib/formatter_ex.h:3: trailing whitespace.
+[32m+[m[32m#include <string>[m[41m[m
+formatter_ex_lib/formatter_ex.h:4: trailing whitespace.
+[32m+[m[32m#include <iostream>[m[41m[m
+formatter_ex_lib/formatter_ex.h:5: trailing whitespace.
+[32m+[m[41m[m
+formatter_ex_lib/formatter_ex.h:6: trailing whitespace.
+[32m+[m[32mstd::ostream& formatter(std::ostream& out, const std::string& message);[m[41m[m
+formatter_lib/CMakeLists.txt:12: new blank line at EOF.
+formatter_lib/formatter.cpp:1: trailing whitespace.
+[32m+[m[32m#include "formatter.h"[m[41m[m
+formatter_lib/formatter.cpp:2: trailing whitespace.
+[32m+[m[41m[m
+formatter_lib/formatter.cpp:3: trailing whitespace.
+[32m+[m[32mstd::string formatter(const std::string& message)[m[41m[m
+formatter_lib/formatter.cpp:4: trailing whitespace.
+[32m+[m[32m{[m[41m[m
+formatter_lib/formatter.cpp:5: trailing whitespace.
+[32m+[m[32m    std::string res;[m[41m[m
+formatter_lib/formatter.cpp:6: trailing whitespace.
+[32m+[m[32m    res += "-------------------------\n";[m[41m[m
+formatter_lib/formatter.cpp:7: trailing whitespace.
+[32m+[m[32m    res += message + "\n";[m[41m[m
+formatter_lib/formatter.cpp:8: trailing whitespace.
+[32m+[m[32m    res += "-------------------------\n";[m[41m[m
+formatter_lib/formatter.cpp:9: trailing whitespace.
+[32m+[m[32m    return res;[m[41m[m
+formatter_lib/formatter.cpp:10: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+formatter_lib/formatter.h:1: trailing whitespace.
+[32m+[m[32m#pragma once[m[41m[m
+formatter_lib/formatter.h:2: trailing whitespace.
+[32m+[m[41m[m
+formatter_lib/formatter.h:3: trailing whitespace.
+[32m+[m[32m#include <string>[m[41m[m
+formatter_lib/formatter.h:4: trailing whitespace.
+[32m+[m[41m[m
+formatter_lib/formatter.h:5: trailing whitespace.
+[32m+[m[32mstd::string formatter(const std::string& message);[m[41m[m
+hello_world_application/CMakeLists.txt:12: new blank line at EOF.
+hello_world_application/hello_world.cpp:1: trailing whitespace.
+[32m+[m[32m#include <iostream>[m[41m[m
+hello_world_application/hello_world.cpp:2: trailing whitespace.
+[32m+[m[41m[m
+hello_world_application/hello_world.cpp:3: trailing whitespace.
+[32m+[m[32m#include "formatter_ex.h"[m[41m[m
+hello_world_application/hello_world.cpp:4: trailing whitespace.
+[32m+[m[41m[m
+hello_world_application/hello_world.cpp:5: trailing whitespace.
+[32m+[m[32mint main()[m[41m[m
+hello_world_application/hello_world.cpp:6: trailing whitespace.
+[32m+[m[32m{[m[41m[m
+hello_world_application/hello_world.cpp:7: trailing whitespace.
+[32m+[m[32m    formatter(std::cout, "hello, world!");[m[41m[m
+hello_world_application/hello_world.cpp:8: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+solver_application/equation.cpp:1: trailing whitespace.
+[32m+[m[32m#include <iostream>[m[41m[m
+solver_application/equation.cpp:2: trailing whitespace.
+[32m+[m[41m[m
+solver_application/equation.cpp:3: trailing whitespace.
+[32m+[m[32m#include "formatter_ex.h"[m[41m[m
+solver_application/equation.cpp:4: trailing whitespace.
+[32m+[m[32m#include "solver.h"[m[41m[m
+solver_application/equation.cpp:5: trailing whitespace.
+[32m+[m[41m[m
+solver_application/equation.cpp:6: trailing whitespace.
+[32m+[m[32mint main()[m[41m[m
+solver_application/equation.cpp:7: trailing whitespace.
+[32m+[m[32m{[m[41m[m
+solver_application/equation.cpp:8: trailing whitespace.
+[32m+[m[32m    float a = 0;[m[41m[m
+solver_application/equation.cpp:9: trailing whitespace.
+[32m+[m[32m    float b = 0;[m[41m[m
+solver_application/equation.cpp:10: trailing whitespace.
+[32m+[m[32m    float c = 0;[m[41m[m
+solver_application/equation.cpp:11: trailing whitespace.
+[32m+[m[41m[m
+solver_application/equation.cpp:12: trailing whitespace.
+[32m+[m[32m    std::cin >> a >> b >> c;[m[41m[m
+solver_application/equation.cpp:13: trailing whitespace.
+[32m+[m[41m[m
+solver_application/equation.cpp:14: trailing whitespace.
+[32m+[m[32m    float x1 = 0;[m[41m[m
+solver_application/equation.cpp:15: trailing whitespace.
+[32m+[m[32m    float x2 = 0;[m[41m[m
+solver_application/equation.cpp:16: trailing whitespace.
+[32m+[m[41m[m
+solver_application/equation.cpp:17: trailing whitespace.
+[32m+[m[32m    try[m[41m[m
+solver_application/equation.cpp:18: trailing whitespace.
+[32m+[m[32m    {[m[41m[m
+solver_application/equation.cpp:19: trailing whitespace.
+[32m+[m[32m        solve(a, b, c, x1, x2);[m[41m[m
+solver_application/equation.cpp:20: trailing whitespace.
+[32m+[m[41m[m
+solver_application/equation.cpp:21: trailing whitespace.
+[32m+[m[32m        formatter(std::cout, "x1 = " + std::to_string(x1));[m[41m[m
+solver_application/equation.cpp:22: trailing whitespace.
+[32m+[m[32m        formatter(std::cout, "x2 = " + std::to_string(x2));[m[41m[m
+solver_application/equation.cpp:23: trailing whitespace.
+[32m+[m[32m    }[m[41m[m
+solver_application/equation.cpp:24: trailing whitespace.
+[32m+[m[32m    catch (const std::logic_error& ex)[m[41m[m
+solver_application/equation.cpp:25: trailing whitespace.
+[32m+[m[32m    {[m[41m[m
+solver_application/equation.cpp:26: trailing whitespace.
+[32m+[m[32m        formatter(std::cout, ex.what());[m[41m[m
+solver_application/equation.cpp:27: trailing whitespace.
+[32m+[m[32m    }[m[41m[m
+solver_application/equation.cpp:28: trailing whitespace.
+[32m+[m[41m[m
+solver_application/equation.cpp:29: trailing whitespace.
+[32m+[m[32m    return 0;[m[41m[m
+solver_lib/solver.h:1: trailing whitespace.
+[32m+[m[32m#pragma once[m[41m[m
+solver_lib/solver.h:2: trailing whitespace.
+[32m+[m[41m[m
+solver_lib/solver.h:3: trailing whitespace.
+[32m+[m[32mvoid solve(float a, float b, float c, float& x1, float& x2);[m[41m[m

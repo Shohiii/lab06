@@ -1,1 +1,2 @@
-Static C++ library for printing.
+Quadratic equation solver application.
+The application uses formatter_ex and solver_lib static libraries.

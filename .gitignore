@@ -1,0 +1,11 @@
+build/
+_build/
+artifacts/
+_CPack_Packages/
+*.deb
+*.rpm
+*.msi
+*.dmg
+*.tar.gz
+*.zip
+lab06_terminal.txt
